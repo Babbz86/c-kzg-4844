@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:22.5.1-alpine
 RUN apk update && apk add --no-cache g++ make python3
 
 WORKDIR /app/bindings/node.js
